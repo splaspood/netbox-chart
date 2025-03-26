@@ -262,7 +262,7 @@ The following table lists the configurable parameters for this chart and their d
 | `reportsPersistence.selector`                   | Set the selector for PVs, if desired                                | `{}`                                         |
 | `reportsPersistence.accessMode`                 | Access mode for the volume                                          | `ReadWriteOnce`                              |
 | `reportsPersistence.size`                       | Size of persistent volume to request                                | `1Gi`                                        |
-| `scriptsPersistence.enabled`                    | Enable storage persistence for NetBox reports                       | `false`                                      |
+| `scriptsPersistence.enabled`                    | Enable storage persistence for NetBox scripts                       | `false`                                      |
 | `scriptsPersistence.existingClaim`              | Use an existing `PersistentVolumeClaim` instead of creating one     | `""`                                         |
 | `scriptsPersistence.subPath`                    | Mount a sub-path of the volume into the container, not the root     | `""`                                         |
 | `scriptsPersistence.storageClass`               | Set the storage class of the PVC (use `-` to disable provisioning)  | `""`                                         |
